@@ -1,7 +1,7 @@
 {
   "name": "@minch/nuxt-base",
   "description": "A Base Layer for Nuxt Projects.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "url": "https://github.com/oneminch/Nuxt-Base"
   },
@@ -32,15 +32,15 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "@nuxt/eslint": "latest",
-    "@nuxt/fonts": "0.11.4",
-    "@nuxt/icon": "2.0.0",
-    "@nuxt/image": "1.11.0",
-    "@nuxt/test-utils": "3.19.2",
+    "@nuxt/eslint": "^1.9.0",
+    "@nuxt/fonts": "^0.11.4",
+    "@nuxt/icon": "^2.0.0",
+    "@nuxt/image": "^1.11.0",
+    "@nuxt/test-utils": "^3.19.2",
     "eslint": "^9.33.0",
     "nuxt": "^4.0.3",
     "typescript": "^5.9.2",
-    "vue": "latest"
+    "vue": "^3.5.18"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.12",
