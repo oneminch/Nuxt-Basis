@@ -1,6 +1,6 @@
 # @minch/nuxt-base
 
-A Base Layer for Nuxt Projects.
+A Base Layer for Nuxt Projects (Nuxt 4, Tailwind CSS 4, & Additional Modules).
 
 ## Working on the layer
 

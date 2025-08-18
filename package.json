@@ -1,8 +1,27 @@
 {
   "name": "@minch/nuxt-base",
+  "description": "A Base Layer for Nuxt Projects.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/oneminch/Nuxt-Base"
+  },
+  "homepage": "https://github.com/oneminch/Nuxt-Base#readme",
+  "license": "MIT",
+  "author": {
+    "name": "Dawit",
+    "url": "https://bsky.app/profile/minch.dev"
+  },
   "type": "module",
-  "version": "0.0.1",
   "main": "./nuxt.config.ts",
+  "keywords": [
+    "nuxt",
+    "nuxt-layer",
+    "tailwindcss"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "scripts": {
     "dev": "nuxt dev .playground",
     "dev:prepare": "nuxt prepare .playground",
@@ -26,5 +45,14 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.1.12",
     "tailwindcss": "^4.1.12"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "@tailwindcss/oxide",
+      "esbuild",
+      "sharp",
+      "unrs-resolver"
+    ]
   }
 }
