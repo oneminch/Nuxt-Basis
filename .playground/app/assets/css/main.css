@@ -1,0 +1,10 @@
+@import "@minch/nuxt-base/tailwind";
+
+@theme {
+  --color-nuxt-green: #00dc82;
+  --color-tailwind-blue: #38bdf8;
+}
+
+@utility card {
+  @apply min-w-36 bg-white text-center text-zinc-600 font-bold border border-zinc-200 py-4 px-8 rounded-lg flex flex-col items-center justify-center gap-y-2;
+}

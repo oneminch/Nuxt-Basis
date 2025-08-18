@@ -1,0 +1,30 @@
+{
+  "name": "@minch/nuxt-base",
+  "type": "module",
+  "version": "0.0.1",
+  "main": "./nuxt.config.ts",
+  "scripts": {
+    "dev": "nuxt dev .playground",
+    "dev:prepare": "nuxt prepare .playground",
+    "prepare": "nuxt prepare",
+    "build": "nuxt build .playground",
+    "generate": "nuxt generate .playground",
+    "preview": "nuxt preview .playground",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "latest",
+    "@nuxt/fonts": "0.11.4",
+    "@nuxt/icon": "2.0.0",
+    "@nuxt/image": "1.11.0",
+    "@nuxt/test-utils": "3.19.2",
+    "eslint": "^9.33.0",
+    "nuxt": "^4.0.3",
+    "typescript": "^5.9.2",
+    "vue": "latest"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.12",
+    "tailwindcss": "^4.1.12"
+  }
+}

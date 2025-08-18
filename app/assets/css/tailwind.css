@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  /* Papaya Color Palette */
+  --color-papaya-50: #fff1ea;
+  --color-papaya-100: #ffe3d6;
+  --color-papaya-200: #ffc7ad;
+  --color-papaya-300: #ffac83;
+  --color-papaya-400: #ff905a;
+  --color-papaya-500: #ff7431;
+  --color-papaya-600: #cc5d27;
+  --color-papaya-700: #99461d;
+  --color-papaya-800: #662e14;
+  --color-papaya-900: #33170a;
+
+  /* Papaya Avocado Palette */
+  --color-avocado-50: #eef3e6;
+  --color-avocado-100: #dde6cd;
+  --color-avocado-200: #bbcd9a;
+  --color-avocado-300: #9ab468;
+  --color-avocado-400: #789b35;
+  --color-avocado-500: #568203;
+  --color-avocado-600: #456802;
+  --color-avocado-700: #344e02;
+  --color-avocado-800: #223401;
+  --color-avocado-900: #111a01;
+}
