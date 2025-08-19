@@ -10,13 +10,7 @@ export default defineNuxtConfig({
 
   devtools: { enabled: true },
 
-  modules: [
-    "@nuxt/eslint",
-    "@nuxt/fonts",
-    "@nuxt/icon",
-    "@nuxt/image",
-    "@nuxt/test-utils",
-  ],
+  modules: [join(currentDir, "./modules/config.ts")],
 
   alias: {
     "@minch/nuxt-base/tailwind": join(
