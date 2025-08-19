@@ -8,26 +8,16 @@ The `.playground` directory should help you on trying your layer during developm
 
 Running `pnpm dev` will prepare and boot `.playground` directory, which imports your layer itself.
 
-## Distributing your layer
-
-This Nuxt layer can be published on NPM.
-
-To do so, you only have to check if `files` in `package.json` are valid, then run:
+## Usage
 
 ```bash
-npm publish --access public
-```
-
-Once done, users will only have to run:
-
-```bash
-npm install --save @minch/nuxt-base
+npm install --save-dev @minch/nuxt-base
 ```
 
 Then add the dependency to their `extends` in `nuxt.config`:
 
 ```ts
 defineNuxtConfig({
-  extends: "@minch/nuxt-base",
+  extends: ["@minch/nuxt-base"],
 });
 ```
