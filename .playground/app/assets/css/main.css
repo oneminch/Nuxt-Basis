@@ -1,4 +1,4 @@
-@import "@minch/nuxt-base/tailwind";
+@import "@minch/nuxt-basis/tailwind";
 
 @theme {
   --color-nuxt-green: #00dc82;

@@ -5,12 +5,12 @@
     <div class="flex flex-col items-center justify-center gap-y-4">
       <Icon name="simple-icons:nuxt" class="text-9xl text-nuxt-green" />
 
-      <h1 class="text-5xl font-bold text-zinc-700">Nuxt Base</h1>
+      <h1 class="text-5xl font-bold text-zinc-700">Nuxt Basis</h1>
 
       <p
         class="font-mono py-1 px-5 bg-zinc-800 font-semibold text-nuxt-green rounded-full"
       >
-        @minch/nuxt-base
+        @minch/nuxt-basis
       </p>
     </div>
 

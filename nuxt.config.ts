@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   modules: [join(currentDir, "./modules/config.ts")],
 
   alias: {
-    "@minch/nuxt-base/tailwind": join(
+    "@minch/nuxt-basis/tailwind": join(
       currentDir,
       "./app/assets/css/tailwind.css"
     ),

@@ -34,7 +34,7 @@ export interface BaseLayerOptions {
 
 export default defineNuxtModule<BaseLayerOptions>({
   meta: {
-    name: "@minch/nuxt-base/config",
+    name: "@minch/nuxt-basis/config",
     configKey: "baseModules",
   },
   defaults: {
@@ -59,8 +59,8 @@ export default defineNuxtModule<BaseLayerOptions>({
           await installModule(module.name);
         } catch (error) {
           console.warn(
-            `[@minch/nuxt-base] Could not load ${module.name}:`,
-            error,
+            `[@minch/nuxt-basis] Could not load ${module.name}:`,
+            error
           );
         }
       }
@@ -78,15 +78,15 @@ export default defineNuxtModule<BaseLayerOptions>({
 
       if (enabledModules.length > 0) {
         console.info(
-          "[@minch/nuxt-base] Enabled modules:",
-          enabledModules.join(", "),
+          "[@minch/nuxt-basis] Enabled modules:",
+          enabledModules.join(", ")
         );
       }
 
       if (disabledModules.length > 0) {
         console.info(
-          "[@minch/nuxt-base] Disabled modules:",
-          disabledModules.join(", "),
+          "[@minch/nuxt-basis] Disabled modules:",
+          disabledModules.join(", ")
         );
       }
     }

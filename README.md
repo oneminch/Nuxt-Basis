@@ -1,4 +1,4 @@
-# @minch/nuxt-base
+# @minch/nuxt-basis
 
 A Base Layer for Nuxt Projects (Nuxt 4, Tailwind CSS 4, & Additional Modules).
 
@@ -11,13 +11,13 @@ Running `pnpm dev` will prepare and boot `.playground` directory, which imports 
 ## Usage
 
 ```bash
-npm install --save-dev @minch/nuxt-base
+npm install --save-dev @minch/nuxt-basis
 ```
 
 Then add the dependency to their `extends` in `nuxt.config`:
 
 ```ts
 defineNuxtConfig({
-  extends: ["@minch/nuxt-base"],
+  extends: ["@minch/nuxt-basis"],
 });
 ```
