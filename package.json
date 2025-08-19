@@ -1,7 +1,7 @@
 {
   "name": "@minch/nuxt-base",
   "description": "A Base Layer for Nuxt Projects.",
-  "version": "1.1.2",
+  "version": "1.0.0",
   "repository": {
     "url": "https://github.com/oneminch/Nuxt-Base"
   },
@@ -13,6 +13,16 @@
   },
   "type": "module",
   "main": "./nuxt.config.ts",
+  "files": [
+    "nuxt.config.ts",
+    "app/**/*",
+    "modules/**/*",
+    "types/**/*",
+    "pnpm-workspace.yaml",
+    "eslint.config.js",
+    "README.md",
+    "LICENSE"
+  ],
   "keywords": [
     "nuxt",
     "nuxt-layer",
@@ -45,15 +55,6 @@
     "eslint": "^9.33.0",
     "tailwindcss": "^4.1.12",
     "typescript": "^5.9.2"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "@parcel/watcher",
-      "@tailwindcss/oxide",
-      "esbuild",
-      "sharp",
-      "unrs-resolver"
-    ]
   },
   "packageManager": "pnpm@10.14.0"
 }
