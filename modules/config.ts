@@ -11,13 +11,7 @@ export interface BaseLayerOptions {
    * Enable/disable Fonts module
    * @default true
    */
-  fonts?: boolean;
-
-  /**
-   * Enable/disable Icon module
-   * @default true
-   */
-  icon?: boolean;
+  content?: boolean;
 
   /**
    * Enable/disable Image module
@@ -30,6 +24,12 @@ export interface BaseLayerOptions {
    * @default true
    */
   testUtils?: boolean;
+
+  /**
+   * Enable/disable UI module
+   * @default true
+   */
+  ui?: boolean;
 }
 
 export default defineNuxtModule<BaseLayerOptions>({
@@ -38,19 +38,19 @@ export default defineNuxtModule<BaseLayerOptions>({
     configKey: "baseModules",
   },
   defaults: {
-    eslint: true,
-    fonts: true,
-    icon: true,
+    ui: true,
+    content: true,
     image: true,
     testUtils: true,
+    eslint: true,
   },
   async setup(options, nuxt) {
     const modulesToAdd: Array<{ name: string; enabled: boolean }> = [
-      { name: "@nuxt/eslint", enabled: options.eslint ?? true },
-      { name: "@nuxt/fonts", enabled: options.fonts ?? true },
-      { name: "@nuxt/icon", enabled: options.icon ?? true },
+      { name: "@nuxt/ui", enabled: options.ui ?? true },
+      { name: "@nuxt/content", enabled: options.content ?? true },
       { name: "@nuxt/image", enabled: options.image ?? true },
       { name: "@nuxt/test-utils", enabled: options.testUtils ?? true },
+      { name: "@nuxt/eslint", enabled: options.eslint ?? true },
     ];
 
     for (const module of modulesToAdd) {
@@ -60,7 +60,7 @@ export default defineNuxtModule<BaseLayerOptions>({
         } catch (error) {
           console.warn(
             `[@minch/nuxt-basis] Could not load ${module.name}:`,
-            error
+            error,
           );
         }
       }
@@ -79,14 +79,14 @@ export default defineNuxtModule<BaseLayerOptions>({
       if (enabledModules.length > 0) {
         console.info(
           "[@minch/nuxt-basis] Enabled modules:",
-          enabledModules.join(", ")
+          enabledModules.join(", "),
         );
       }
 
       if (disabledModules.length > 0) {
         console.info(
           "[@minch/nuxt-basis] Disabled modules:",
-          disabledModules.join(", ")
+          disabledModules.join(", "),
         );
       }
     }

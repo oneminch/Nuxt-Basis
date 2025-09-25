@@ -1,6 +1,8 @@
-# Docs for Nuxt Basis
+[Home 🏠](/)
 
-@minch/nuxt-basis is a base layer for Nuxt Projects that provides a pre-configured setup with Nuxt 4, Tailwind CSS 4, and additional modules.
+# Documentation
+
+`@minch/nuxt-basis` is a base layer for Nuxt Projects that provides a pre-configured setup with Nuxt 4, Tailwind CSS 4, and additional modules.
 
 ## Features
 

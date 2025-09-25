@@ -1,4 +1,5 @@
 @import "@minch/nuxt-basis/tailwind";
+@source "../content/**/*";
 
 @theme {
   --color-nuxt-green: #00dc82;
@@ -7,4 +8,10 @@
 
 @utility card {
   @apply min-w-36 bg-white text-center text-zinc-600 font-bold border border-zinc-200 py-4 px-8 rounded-lg flex flex-col items-center justify-center gap-y-2;
+}
+
+@layer base {
+  body {
+    @apply bg-zinc-50/25;
+  }
 }
