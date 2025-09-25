@@ -39,8 +39,7 @@
     "build": "nuxt build .playground",
     "generate": "nuxt generate .playground",
     "preview": "nuxt preview .playground",
-    "lint": "eslint .",
-    "postinstall": "nuxt prepare && nuxt prepare .playground"
+    "lint": "eslint ."
   },
   "devDependencies": {
     "nuxt": "^4.1.2",
