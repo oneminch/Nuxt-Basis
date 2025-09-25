@@ -8,7 +8,7 @@
       <h1 class="text-5xl font-bold text-zinc-700">Nuxt Basis</h1>
 
       <div class="flex items-center gap-x-4">
-        <UButton to="/docs" variant="subtle" class="rounded-full"
+        <UButton to="/docs" variant="subtle" class="rounded-full py-2 px-4"
           >Docs 📄</UButton
         >
 
