@@ -16,6 +16,14 @@
 
 ## Installation
 
+To create a new Nuxt project based on this layer:
+
+```bash
+pnpm create nuxt --template gh:oneminch/nuxt-basis/.starter
+```
+
+To add to an existing Nuxt project:
+
 ```bash
 pnpm add -D @minch/nuxt-basis
 ```
