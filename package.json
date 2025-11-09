@@ -40,18 +40,18 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "nuxt": "^4.2.0",
-    "vue": "^3.5.22"
+    "nuxt": "^4.2.1",
+    "vue": "^3.5.24"
   },
   "dependencies": {
     "@nuxt/content": "^3.8.0",
     "@nuxt/eslint": "^1.10.0",
-    "@nuxt/image": "^1.11.0",
+    "@nuxt/image": "^2.0.0",
     "@nuxt/test-utils": "^3.20.1",
     "@nuxt/ui": "^4.1.0",
-    "@tailwindcss/vite": "^4.1.16",
-    "eslint": "^9.39.0",
-    "tailwindcss": "^4.1.16",
+    "@tailwindcss/vite": "^4.1.17",
+    "eslint": "^9.39.1",
+    "tailwindcss": "^4.1.17",
     "typescript": "^5.9.3"
   },
   "packageManager": "pnpm@10.18.3"
