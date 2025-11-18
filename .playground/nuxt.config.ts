@@ -3,5 +3,6 @@ export default defineNuxtConfig({
   extends: [".."],
   ui: {
     content: true,
+    colorMode: false
   },
 });
