@@ -47,10 +47,10 @@ export default defineNuxtModule<BaseLayerOptions>({
   async setup(options, nuxt) {
     const modulesToAdd: Array<{ name: string; enabled: boolean }> = [
       { name: "@nuxt/ui", enabled: options.ui ?? true },
-      { name: "@nuxt/content", enabled: options.content ?? true },
       { name: "@nuxt/image", enabled: options.image ?? true },
       { name: "@nuxt/test-utils", enabled: options.testUtils ?? true },
       { name: "@nuxt/eslint", enabled: options.eslint ?? true },
+      { name: "@nuxt/content", enabled: options.content ?? true },
     ];
 
     for (const module of modulesToAdd) {
