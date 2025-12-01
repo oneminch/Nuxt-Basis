@@ -1,7 +1,7 @@
 {
   "name": "@minch/nuxt-basis",
   "description": "A Base Layer for Nuxt Projects.",
-  "version": "0.12.7",
+  "version": "0.12.8",
   "repository": "github:oneminch/nuxt-basis",
   "homepage": "https://github.com/oneminch/nuxt-basis#readme",
   "license": "MIT",
